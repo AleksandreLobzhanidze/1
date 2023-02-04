@@ -1,0 +1,41 @@
+body {
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    background-color: purple;
+}
+
+header {
+    margin-top: 25px
+}
+
+header nav .logo {
+    width: 23%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactUs {
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
